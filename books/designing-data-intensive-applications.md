@@ -247,7 +247,7 @@ The relational model thus made it much easier to add new features to application
 
 **The main arguments in favour of the document data model are schema flexibility, better performance due to locality, and sometimes closer data structures to the ones used by the applications. The relation model counters by providing better support for joins, and many-to-one and many-to-many relationships.**
 
-If the data in your application has a document-like structure, then it's probably a good idea to use a document model. The relational technique of _shredding_ can lead unnecessary complicated application code.
+If the data in your application has a document-like structure, then it's probably a good idea to use a document model. The relational technique of _sharding_ can lead unnecessary complicated application code.
 
 The poor support for joins in document databases may or may not be a problem.
 
